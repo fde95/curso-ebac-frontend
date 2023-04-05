@@ -12,6 +12,12 @@
 <p>No terceiro módulo do curso de Engenheiro Front End oferecido pela EBAC, o foco foi a criação de formulários simples utilizando HTML. Durante o módulo, foram abordados conceitos como a estrutura básica de um formulário, a utilização de diferentes tipos de campos, como texto, senha, data, seleção e botões, além da aplicação de estilos em formulários. 
 O exercício proposto permitiu consolidar os conhecimentos adquiridos nas aulas e desenvolver habilidades na criação de formulários simples em HTML.</p>
 
+
+<h3>Pré Visualização</h3>
+
+<img src="https://user-images.githubusercontent.com/123211425/230104225-c7bee7cb-e649-46d7-ab8c-4e868edbbfa6.png">
+
+
 <br></br>
 
 <h3>Contatos</h3>
