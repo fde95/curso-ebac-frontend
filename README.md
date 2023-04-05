@@ -1,6 +1,6 @@
 <h1 align="center">
   <p align="center">Meu Portal de Noticias</p>
-  <a href="https://site-gameshop-murex-delta.vercel.app/" target:"_blank"><img src="https://media.giphy.com/media/7vfhdCIn13zm8/giphy.gif" alt="Gif Homem Lendo Jornal"></a>
+  <img src="https://media.giphy.com/media/7vfhdCIn13zm8/giphy.gif" alt="Gif Homem Lendo Jornal">
 </h1>
 <div style="display: inline_block"><br>
   <div align="center">
@@ -11,6 +11,21 @@
 
 <h3> Sobre o Projeto </h3>
 <p>Este é um projeto desenvolvido durante o quarto módulo do curso de CSS oferecido pela EBAC, onde criamos uma página de notícias utilizando apenas HTML e CSS. O exercício exigiu a aplicação de diversos conceitos de design e layout, como posicionamento de elementos, uso de cores, tipografia e organização de conteúdo. O projeto permitiu consolidar os conhecimentos adquiridos nas aulas e desenvolver habilidades em HTML e CSS.</p>
+
+<h3> Pré Visualização </h3>
+
+<p><i> Tela 1 - Esporte </i>
+<img src="https://user-images.githubusercontent.com/123211425/230101819-8bec41cf-1b1d-4549-805e-39c565a5ee53.png">
+
+<p><i> Tela 2 - Economia </i>
+<img src="https://user-images.githubusercontent.com/123211425/230102280-3bd97dc1-911b-4df5-89dc-82c427151f36.png"></p>
+
+<p><i> Tela 3 - Entretenimento </i>
+<img src="https://user-images.githubusercontent.com/123211425/230102944-654d462a-f998-4df8-9e35-e3531178b1c7.png"></p>
+
+<p><i> Tela 4 - Tecnologia </i>
+<img src="https://user-images.githubusercontent.com/123211425/230103129-1e2f0170-ccfc-457c-b707-245747485692.png"></p>
+
 
 <br></br>
 
