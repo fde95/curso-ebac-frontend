@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+    font-family: 'Anton', sans-serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header li{
+    display: inline;
+    font-family: sans-serif, arial, helvetica;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa ;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.artigo article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article{
+    margin-bottom: 16px;
+}
+
+.artigo article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigo article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigo article a:hover{
+    text-decoration: underline
+}
+
+.artigo article p,
+.artigo article a{
+    font-family: sans-serif, arial, helvetica;
+}
+
+.artigo article h3{
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+}
+
+.artigo article p, 
+.artigo article a,
+.artigo article header{
+    font-family: 'Catamaran', sans-serif;
+}
+
+section h2{
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 10%);
+}
+
+#sports .artigo article a{
+    background-color: rgba(0, 173, 0, 0.851);
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .artigo article a{
+    background-color: #ff9f1a ;
+}
+
+#entertainment {
+    background-color: #9fc9f8;
+}
+
+#entertainment .artigo article a{
+    background-color: #1a5fff ;
+}
+
+#tecnology {
+    background-color: #f89fe8;
+}
+
+#tecnology .artigo article a{
+    background-color: #fb1aff ;
+}
