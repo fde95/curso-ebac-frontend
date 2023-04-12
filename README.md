@@ -73,7 +73,9 @@ O exercício permitiu consolidar os conhecimentos de HTML e CSS adquiridos nas a
             <input type="number" id="valorB" required placeholder="Insira um número inteiro" />
         </label>
             <button type="submit" id="botaoExecutar">Executar</button>
-            <span id="alertMessege"></span>
+            <p id="mensagemValorAMaior"></p>
+            <p id="valorIgual"></p>
+            <p id="valorCorreto"></p>
         </form>
     <script src="./main.js">
     </script>
@@ -99,9 +101,6 @@ h1, h2{
 
 h2{
     font-weight: 300;
-}
-
-body {
 }
 
 .container {
@@ -134,8 +133,32 @@ button {
     cursor: pointer;
 }
 
-span{
+#mensagemValorAMaior{
+    padding: 16px;
     text-align: center;
+    background-color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    display: none;
+}
+
+#valorIgual{
+    padding: 16px;
+    text-align: center;
+    background-color: orangered;
+    font-weight: 700;
+    border-radius: 20px;
+    display: none;
+}
+
+#valorCorreto{
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(105, 156, 28);
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 20px;
+    display: none;
 }
 
 button:hover {
@@ -150,6 +173,9 @@ button:hover {
 console.log ("JavaScript Carregado com Sucesso"); //confirmação de carregamento JS
 
 const form = document.querySelector('#validacaoValorMaior');
+const mensagemValorIgual = document.getElementById('valorIgual');
+const mensagemValorMaior = document.getElementById('mensagemValorAMaior');
+const mensagemValorCorreto = document.getElementById('valorCorreto');
 
 form.onsubmit = evento => {
     //Receber o valor do campo A e B
@@ -159,7 +185,8 @@ form.onsubmit = evento => {
     //Verificação de valor maior
     if (valorA > valorB) {
         evento.preventDefault ();
-        document.getElementById('alertMessege').innerHTML = "<h3>O valor de A é maior que B.<p>Tente Novamente!</p>";
+        mensagemValorMaior.innerHTML = "O valor de A é maior que B. Tente novamente";
+        mensagemValorMaior.style.display = 'block';
     
     //Validação de recebimento de valores A e B
     console.log ("O valor",valorA,"referente a A é maior que o valor",valorB,"referente a B. Tente novamente!");
@@ -167,18 +194,23 @@ form.onsubmit = evento => {
     }
     else if (valorB === valorA) {
         evento.preventDefault ();
-        document.getElementById('alertMessege').innerHTML = "<h3>Os valores A e B são identicos.<p>Insira valores diferentes entre A e B</p>";
+        mensagemValorIgual.innerHTML = "O valor de A e B são identicos, insira valores diferentes para A e B";
+        mensagemValorIgual.style.display = 'block';
     
     //Validação de recebimento de valores A e B
     console.log ("O valor",valorA,"referente a A e o valor",valorB,"referente a B são identicos. Insira valores diferentes entre A e B!");
         return;
     }
     else {
-        alert("Parabéns, o valor de B é maior que o de A");
+        evento.preventDefault ();
+        mensagemValorCorreto.innerHTML = "Boa!! O valor de B é maior que A.";
+        mensagemValorCorreto.style.display = 'block';
+
+        //Validação de recebimento de valores A e B
+        console.log ("Parabéns! O valor de",valorB,"referente a B é maior que o valor",valorA,"referente a A.");
         return;
     }
 
 
 }
-
 ```
