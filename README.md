@@ -21,13 +21,14 @@ O exercício permitiu consolidar os conhecimentos de HTML e CSS adquiridos nas a
 <img width="600" src="https://user-images.githubusercontent.com/123211425/231483184-fdaa206e-493b-4cfc-a05b-8ec022ef93a1.png">
 
 <h4>Mensagem de Erro por valor A > B</h4>
-<img width="600" src="https://user-images.githubusercontent.com/123211425/231486657-c20c5043-155e-4d67-a436-9a7f31363d11.png">
+<img width="600" src="https://user-images.githubusercontent.com/123211425/231502117-7b599adf-e11d-4e5d-a3d5-91b8c4987b0b.png">
+
 
 <h4>Mensagem de Erro por valor A === B</h4>
-<img width="600" src="https://user-images.githubusercontent.com/123211425/231486853-db604e94-e21a-47be-889d-16f79be73e6a.png">
+<img width="600" src="https://user-images.githubusercontent.com/123211425/231502301-3762406a-83d0-4925-80e0-30d71606f159.png">
 
-<h4>Mensagem de Alerta B > A</h4>
-<img width="600" src="https://user-images.githubusercontent.com/123211425/231487054-2e308177-da62-46d6-8ea7-7ef891c05bca.png">
+<h4>Mensagem de B > A</h4>
+<img width="600" src="https://user-images.githubusercontent.com/123211425/231502434-1b5352d0-ab1d-408c-8463-a99ccc57c44e.png">
 
 
 <br></br>
