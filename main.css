@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(45deg, #08F 50%, rgb(25, 116, 196) 50%);
+}
+
+.container{
+    max-width: 405px;
+    margin: 135px auto;
+    background-color: #ADF;
+    border-radius: 7px;
+    padding: 28px 0;
+    box-shadow: 30px 30px 30px rgb(0, 0, 0,0.30);
+}
+
+h1{
+    text-align: center;
+    color: #08F;
+    font-size: 80px;
+}
+
+.task-input{
+    height: 52px;
+    padding: 0 25px;
+    position: relative;
+}
+
+.task-input input{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    padding: 0 8px;
+    font-size: 18px;
+    border: 2px solid #bfbfbf;
+    outline: none;
+}
+
+.task-input input::placeholder{
+    color: #bfbfbf;
+}
+
+.space{
+    margin-top: 18px;
+    border-bottom: 8px solid rgba(99, 174, 240, 0.508);
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    margin: 20px 25px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 18px;
+    padding-bottom: 16px ;
+    border-bottom: 2px solid rgba(99, 174, 240, 0.508);
+}
+
+.check:hover{
+    color: green;
+    cursor: pointer;
+    scale: 1.4;
+}
+
+ul .checked{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.trash:hover{
+    cursor: pointer;
+    scale: 1.2;
+    color: red;
+}
+
+.check{
+    scale: 1.2;
+}
+
+footer{
+    text-align: center;
+    margin-top: 300px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: rgb(52, 52, 52);
+}
