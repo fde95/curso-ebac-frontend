@@ -1,0 +1,1 @@
+$(ಠ_ಠ365).ready(function(){console.log("Ola Compilador")});
