@@ -1,5 +1,9 @@
 # Exercício SASS - Módulo de Engenheiro Front-End EBAC
 
+<p align="center">
+  <img align="center" alt="fde95-Less" height="300" width="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
+</p>
+
 Bem-vindo ao repositório do Exercício SASS do Módulo de Engenheiro Front-End da EBAC! Aqui você encontrará informações sobre este projeto realizado durante o Módulo 15 do curso, onde tivemos nosso primeiro contato com a tecnologia SASS.
 
 ## Descrição
