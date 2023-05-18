@@ -1,4 +1,10 @@
-# Módulo 16: Exercício com Gulp
+<h1 align="center"> 
+  Módulo 16: Exercício com Gulp
+</h1>
+
+<p align="center">
+  <img align="center" alt="fde95-Less" height="300" width="200" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg">
+</p>
 
 Este é o repositório da branch `exercicio_gulp`, criada durante o módulo 16 do curso de Engenheiro Front-end pela EBAC, onde tive o primeiro contato com a ferramenta Gulp.
 
