@@ -32,7 +32,10 @@
       <b>Modifier</b>: Representa uma variação ou modificação do bloco ou elemento. É representado por um nome descritivo, precedido pelo nome do bloco ou elemento e seguido por dois hífens (por exemplo, <code>.button--primary</code> ).
     </li>
   </ul>
+  <h3>Site Oficial</h3>
+  <a href="https://en.bem.info/">BEM Info</a>
 
+  
    <h2>Metodologia SMACSS</h2>
 
    <p>A metodologia SMACSS é baseada em cinco categorias para organizar e estruturar nosso código CSS:</p>
@@ -53,6 +56,8 @@
       <b>Theme</b>: Refere-se aos estilos que definem a aparência visual de diferentes temas ou variações do projeto.
     </li>
   </ul>
+ <h3>Site Oficial</h3>
+  <a href="http://smacss.com/">SMACSS</a>
   
   <h2>Contribuição</h2>
     <p>Sinta-se à vontade para contribuir com o projeto, enviando pull requests com melhorias, correções de bugs ou novos recursos. Serão muito bem-vindos!</p>
@@ -60,9 +65,6 @@
   <h2>Autor</h2>
     <p>Este projeto foi desenvolvido por Felipe Espinoza como parte do curso de Engenheiro Front-End da EBAC.</p>
     <p>Agradeço por visitar o repositório do Módulo 19: Boas Práticas de CSS! Fique à vontade para entrar em contato caso tenha alguma dúvida ou sugestão.</p>
-
-<br>
-<br>
 
 <h2>Contatos</h2>
 <div style="display: inline_block">
