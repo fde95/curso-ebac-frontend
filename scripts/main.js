@@ -9,17 +9,23 @@ document.addEventListener('DOMContentLoaded', function(){
         const linkElem = document.querySelector('#link-do-perfil');
         const gitHubInfos = 'https://api.github.com/users/fde95'
 
-        fetch(gitHubInfos)
-            .then(function(resposta){
-                return resposta.json();
-            })
-            .then(function(json){
-                avatar.src = json.avatar_url;
-                name.innerText = json.name;
-                userName.innerText = json.login;
-                amountRepositories.innerText = json.public_repos;
-                followersElem.innerText = json.followers;
-                followingElem.innerText = json.following;
-                linkElem.href = json.html_url;
-            });
+            fetch(gitHubInfos)
+                .then(function(resposta){
+                    return resposta.json();
+                })
+                .then(function(json){
+                    avatar.src = json.avatar_url;
+                    name.innerText = json.name;
+                    userName.innerText = json.login;
+                    amountRepositories.innerText = json.public_repos;
+                    followersElem.innerText = json.followers;
+                    followingElem.innerText = json.following;
+                    linkElem.href = json.html_url;
+                })
+        .catch(function(erro){
+            alert('Ocorreu um erro! Por favor, verifique as informações inseridas ou tente novamente mais tarde.')
+        })
+        .finally(function(){
+            console.log ('Informações retiradas de: ',gitHubInfos)
+        })
 });
